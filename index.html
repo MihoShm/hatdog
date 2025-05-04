@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Plagiarism Detector</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="script.js" rel="script" type="text/javascript" />
+</head>
+<body>
+    <div class="container">
+      <h1>Plagiarism Detector</h1>
+      <div class="score-container">
+        <div id="plagiarismScore">Similarity Score: 0%</div>
+      </div>
+      <div class="comparison-container">
+        <div class="text-section">
+          <h3>Text 1</h3>
+          <textarea id="text1" placeholder="Enter first text here..."></textarea>
+        </div>
+        <div class="text-section">
+          <h3>Text 2</h3>
+          <textarea id="text2" placeholder="Enter second text here..."></textarea>
+        </div>
+      </div>
+      <button id="compareBtn">Compare Texts</button>
+      <div class="file-input">
+        <input type="file" id="file1" accept=".txt">
+        <input type="file" id="file2" accept=".txt">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
